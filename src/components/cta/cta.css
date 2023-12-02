@@ -1,0 +1,63 @@
+.gpt__cta{
+    background: var(--gradient-bar);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.gpt__cta-content h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.gpt__cta-content p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.gpt__cta-btn button{
+    width: 160.14px;
+    height: 40.4px;
+    border-radius: 30px;
+    background-color: black;
+    border:0px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.gpt__cta-btn button:hover{
+    background: white;
+    transition: all .5s ease-in;
+    color: black;
+    border: 2px solid;
+}
+
+
+@media screen and (max-width: 650px){
+.gpt__cta{
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt__cta-btn{
+    margin: 2rem 0 0;
+}
+}
+
+@media screen and (max-width: 550px){
+    .gpt__cta-content h3{
+        text-align: center;
+    }
+
+    .gpt__cta-content p{
+        text-align: center;
+    }
+}
